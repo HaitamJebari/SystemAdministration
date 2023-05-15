@@ -1,0 +1,15 @@
+.back{
+}
+.logo{
+    width: 150px;
+    padding-top: 7px;
+}
+.navbar{
+    width: 950em;
+    background-color: rgba(0, 0, 0, 0.235);
+    margin: -8px;
+}
+body{
+    background: url(../img/Background.jpg) no-repeat;
+    background-size: cover;
+}
