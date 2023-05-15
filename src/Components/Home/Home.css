@@ -1,14 +1,6 @@
 .back{
 }
-.logo{
-    width: 150px;
-    padding-top: 7px;
-}
-.navbar{
-    background-color: rgba(0, 0, 0, 0.041);
-    margin: -8px;
-}
-body{
+.Main-Photo{
     background: url(../img/Background.jpg) no-repeat;
     background-size: cover;
 }

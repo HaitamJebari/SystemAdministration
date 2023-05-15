@@ -1,11 +1,12 @@
 import './Home.css';
-import Back from '../img/Background.jpg'
-import logo from '../img/Logo.png'
+
 
 function Home() {
   return (
     <>
-    
+       <div className='Main-Photo'>
+     
+       </div>
     </>
   );
 }
