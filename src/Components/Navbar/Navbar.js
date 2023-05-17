@@ -1,12 +1,12 @@
 import './Navbar.css';
-import logo from '../img/Logo.png'
+// import logo from '../img/Logo.png'
 
 
 function Navbar() {
   return (
     <>
       <div className='navbar'>
-        <img className='logo' src={logo}/>   
+        <img className='logo'/>   
       </div>
     </>
   );
