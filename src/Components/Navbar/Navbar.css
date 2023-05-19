@@ -1,0 +1,11 @@
+.logonav{
+    position: relative;
+    margin :20px;
+    width: 250px;
+    z-index: 1;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}

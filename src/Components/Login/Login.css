@@ -1,11 +1,13 @@
 .form-box {
     width: 800px;
     height: 528px;
-    background: #f1f7fe;
     overflow: hidden;
     border-radius: 16px;
-    color: #010101;
-    margin: 100px auto;
+    background: #987B29;
+    opacity: 0.8;
+    color: #F8BF00;
+    font-family:'Times New Roman', Times, serif;
+    margin: 50px auto;
   }
   
   .form {
@@ -25,7 +27,7 @@
   
   .subtitle {
     font-size: 1rem;
-    color: #666;
+    color: #F8BF00 ;
   }
   
   
@@ -80,8 +82,10 @@
   
   
   .button {
-    background-color: #639ff9;
+    background-color: #e4b826;
     color: #fff;
+    width: 100px;
+    margin-left: 43%;
     border: 0;
     border-radius: 24px;
     padding: 10px 16px;
@@ -96,7 +100,7 @@
   }
   
   .button:hover {
-    background-color: #0065fc;
+    background-color: #F8BF00;
   }
   .form-box2 {
     width: 800px;
