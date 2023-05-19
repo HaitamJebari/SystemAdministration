@@ -11,14 +11,15 @@ import Profs from './Components/Admin/Profs/Profs';
 import Etudiants from './Components/Admin/Etudiants/Etudiants';
 
 
+import Loginadmin from './Components/Login/Loginadmin';
+import Loginprof from './Components/Login/Loginprof';
 
 function App() {
   return (
     <>
-       <Router>
+       
           <Navbar/>
           <Routes>
-              <Route path='/' element={<Home/>} />
               <Route path='/admin' element={<Admin/>} />
               <Route path='/admin/etudiants' element={<Etudiants/>} />
               <Route path='/admin/groups' element={<Groups/>} />
@@ -27,8 +28,14 @@ function App() {
               <Route path='/prof' element={<Prof/>} />
               <Route path='/prof/notes' element={<Notes/>} />
               <Route path='/prof/eleve' element={<Eleve/>} />
+              <Route path="/"  element={<Home />} />
+              
+              <Route path="/Loginadmin"  element={<Loginadmin/>} />
+              <Route path="/Loginprof"  element={<Loginprof />} />
+        
           </Routes>
-       </Router>
+       
+       
     </>
   );
 }

@@ -1,16 +1,12 @@
 import './Sidebar.css';
+import admin from '../img/admin.jpg'
 import { Link} from "react-router-dom";
-import {FaBars , FaTimes} from 'react-icons/fa'
+import {FaMapMarker , FaUsers , FaUserGraduate , FaChalkboardTeacher } from 'react-icons/fa'
 
 function SidebarAdmin() {
   return (
     <>
-        <input type="checkbox" name="" id="check" />
-        <label htmlFor="check">
-          <FaBars id="btn"/>
-          <FaTimes id="cancel"/>
-        </label>
-        <div className="sidebar">
+        {/* <div className="sidebar">
             <header><Link to='/'></Link></header>
                 <ul>
                   <li className="linkRoute">
@@ -29,7 +25,22 @@ function SidebarAdmin() {
                     </Link>
                 </li>
                 </ul>
-          </div> 
+
+          </div>  */}
+          
+  <nav className="Sidebar">
+  <img src={admin} className='admn'/>
+      
+      <div id="navbar" className="navbar-collapse collapse">
+          <ul className="nav navbar-nav">
+              <li ><a href="/admin/etudiants" className="arrow"> Gestion des Étudiants</a></li>
+              <li ><a href="/admin/groups" className="dropdown-toggle" >Gestion des Groupes</a></li>
+          <li><a href="/admin/profs">Gestion des Professeurs</a></li>
+        </ul>
+     
+      </div>
+  </nav>
+
    </>
   );
 }

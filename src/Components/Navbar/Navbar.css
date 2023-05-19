@@ -1,0 +1,13 @@
+.logonav{
+    margin :10px;
+    width: 160px;
+    margin-left: 20px;
+    z-index: 1;
+}
+.navbar{
+    width: 79.5em;
+    height: 60px;
+    background-color: #F0B800;
+    margin-left: -8px;
+    margin-top: -8px;
+}
