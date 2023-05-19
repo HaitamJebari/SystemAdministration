@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Login.css";
+import back from "../img/Background.jpg" 
 import { Link } from 'react-router-dom';
 
 
@@ -9,9 +10,11 @@ export default function Loginadmin() {
   const [password, setPassword] = useState("");
   
   return (
-    <div className="form-box">
+    <>
+    <img src={back} alt="" className='backimage' />
+        <div className="form-box">
       <form className="form">
-          <h1 className="title">login</h1>
+          <h1 className="title">Login</h1>
           <span className="subtitle">welcome back !</span>
           <div className="form-container">
                   <input type="email" class="input" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
@@ -19,9 +22,7 @@ export default function Loginadmin() {
           </div>
           <input type='button' className='button'  value="Sign up"/>
       </form>
-      <div class="form-section">
-        <p>didn't Have an account? <Link to="/S'inscrire">create account</Link> </p>
-      </div>
     </div>
+    </>
   )
 }

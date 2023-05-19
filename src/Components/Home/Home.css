@@ -1,4 +1,32 @@
+<<<<<<< HEAD
 .back{
+=======
+/* body {
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;  
+
+    font-family: sans-serif;
+
+    background-color: #f1f1f1; 
+
+} */
+.backimage{
+    width: 100%;
+    height: 100vh;   
+    top: 0;
+    right: 0px;
+    position: absolute;
+>>>>>>> a77000da25d78dbc28faf5823896ce8dac458284
 }
 .Main-Photo{
     background: url(../img/Background.jpg) no-repeat;
@@ -8,30 +36,30 @@
 .all{
     display:flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 .container{
-    margin-right: 90px;
+    margin-right: 100px;
+    margin-top: 100px ;
+    margin-left: 50px;
 }
-
 .logo{
     margin-left: 185px;
 }
 .container .card .icon {
-
     position: absolute;
-
     top: 0;
-
     left: 0;
-
     width: 100%;
-
+    border-radius: 10px 10px 0 0 ;
+    overflow: hidden;
     height: 100%;
-
     background: #2c73df;
-
+    -webkit-border-radius: 10px 10px 0 0 ;
+    -moz-border-radius: 10px 10px 0 0 ;
+    -ms-border-radius: 10px 10px 0 0 ;
+    -o-border-radius: 10px 10px 0 0 ;
 }
 
 .container .card .icon .fa {
@@ -41,20 +69,20 @@
     top: 50%;
 
     left: 50%;
-
+    
     transform: translate(-50%, -50%);
 
     font-size: 80px;
 
-    color: #fff;
+    color: white;
 
 }
 
 .container .card .slide {
 
-    width: 300px;
+    width: 400px;
 
-    height: 200px;
+    height: 300px;
 
     transition: 0.5s;
 
@@ -85,36 +113,39 @@
 }
 
 .container .card .slide.slide2 {
-
     position: relative;
-
     display: flex;
-
+    height: 100px;
+    border-radius: 0 0 30px 30px ;
     justify-content: center;
-
     align-items: center;
-
     padding: 20px;
-
     box-sizing: border-box;
-
     transition: .8s;
-
+    background-color: aliceblue;
     transform: translateY(-100px);
-
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -webkit-border-radius: 10px 10px 30px 30px ;
+    -moz-border-radius: 0 0 30px 30px ;
+    -ms-border-radius: 0 0 30px 30px ;
+    -o-border-radius: 0 0 30px 30px ;
 }
 
 .container .card:hover .slide.slide2{
-
     transform: translateY(0);
-
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
 }
 
 .container .card .slide.slide2::after{
 
-    content: "";
+    /* content: ""; */
 
     position: absolute;
 
@@ -159,3 +190,10 @@
     color: #414141;
 
 } 
+<<<<<<< HEAD
+=======
+.img{
+    width: 100%;
+    height: 100%;
+}
+>>>>>>> a77000da25d78dbc28faf5823896ce8dac458284
